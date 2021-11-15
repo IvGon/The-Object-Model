@@ -43,10 +43,10 @@ class Train
 
   def initialize(number, type, num_of_cars)
 
-    @number = number			                      # номер поезда
-    @type = type				                        # тип поезда (грузовой, пассажирский)
-    @wagons = []                                # состав поезда
-    @num_of_cars = num_of_cars		              # количество вагонов 
+    @number = number			                    # номер поезда
+    @type = type				                    # тип поезда (грузовой, пассажирский)
+    @wagons = []                                    # состав поезда
+    @num_of_cars = num_of_cars		                # количество вагонов 
     @speed = 0
     @curent_station = "Харьков"
     @@trains.push(self)
